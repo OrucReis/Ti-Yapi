@@ -1,0 +1,22 @@
+/* Navbar'ın ve dropdown menüsünün görünümünü özelleştirmek */
+.navbar {
+    background-color: #6c757d; /* Gri navbar */
+  }
+  
+  .navbar .nav-link, .navbar .dropdown-item {
+    color: black !important; /* Yazı siyah olacak */
+    font-size: 16px;
+  }
+  
+  /* Navbar ve dropdown menüsüne hover etkisi */
+  .navbar-nav .nav-link:hover, .navbar-nav .dropdown-item:hover {
+    color: white !important;
+    background-color: #495057; /* Hoverda daha koyu gri arka plan */
+  }
+  
+  /* Dropdown menü arka planını navbar ile aynı yapma */
+  .navbar-nav .dropdown-menu {
+    background-color: #6c757d !important; /* Dropdown menüsü gri */
+    border: none; /* Border'ı kaldırıyoruz */
+  }
+  
